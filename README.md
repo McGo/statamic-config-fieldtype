@@ -1,14 +1,10 @@
 # Statamic Config Fieldtype
 
-> Statamic Config Fieldtype is a Statamic addon that does something pretty neat.
+> Statamic Config Fieldtype is a Statamic addon that offers a new field type that could be used in any blueprint to offer a list of configurable options based on a config file.
 
 ## Features
 
-This addon does:
-
-- This
-- And this
-- And even this
+Basically the field store the selected value in the entity that uses the fieldtype. 
 
 ## How to Install
 
@@ -20,4 +16,4 @@ composer require mcgo/statamic-config-fieldtype
 
 ## How to Use
 
-Here's where you can explain how to use this wonderful addon.
+

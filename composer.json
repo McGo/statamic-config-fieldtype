@@ -1,0 +1,19 @@
+{
+    "name": "mcgo/statamic-config-fieldtype",
+    "autoload": {
+        "psr-4": {
+            "Mcgo\\StatamicConfigFieldtype\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Config Fieldtype",
+            "description": "Statamic Config Fieldtype addon"
+        },
+        "laravel": {
+            "providers": [
+                "Mcgo\\StatamicConfigFieldtype\\ServiceProvider"
+            ]
+        }
+    }
+}
